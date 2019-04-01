@@ -1,0 +1,54 @@
+body{
+    background:lightgrey;
+}
+
+.row {
+    display: flex;
+    justify-content:center;
+}
+
+.cell {
+    text-align: center;
+    align-content: center;
+    background: lightgoldenrodyellow;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+.connector-top-right {
+    border-top: 2px dotted #1a1818;
+    border-left: 2px dotted #1a1818;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+}
+.connector-top-left {
+    border-top: 2px dotted #1a1818;
+    border-right: 2px dotted #1a1818;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+}
+
+.connector-bottom {
+    border-right: 2px dotted #1a1818;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.node {
+    z-index: 1;
+    margin: 2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: lightgreen;
+    text-align: center;
+    line-height: 40px;
+}
